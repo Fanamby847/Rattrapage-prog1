@@ -3,7 +3,7 @@ import { capitalizeName } from '../code/exercice1.js';
 
 describe("capitalizeNames", () => {
     it("should capitalize ['jo', 'nelson', 'jurie']", () => {
-    expect(capitalizeName (["jo", "nelson", "jurie"])).to.deep.equal(["Jo", "Nelson", "Jurie"]);
+    expect(capitalizeName (["jo", "nelson", "jurie"])).to.deep.qual(["Jo", "Nelson", "Jurie"]);
     });
 
     it("should capitalize ['KARLY', 'DANIEL', 'KELSEY']", () => {

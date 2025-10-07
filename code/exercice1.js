@@ -1,9 +1,9 @@
-function capitalizeName(Array = []) {
-    if (Array.length == 0 || Array == null) {
+function capitalizeName(tab = []) {
+    if (tab.length == 0 ||tab == null) {
         return [];
     }
     else{
-        return Array.map(name => name.charAt(0).toUpperCase() + 
+        return tab.map(name => name.charAt(0).toUpperCase() + 
         name.slice(1).toLowerCase());
     }
 }
