@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Fanamby847/Rattrapage-prog1#readme",
   "dependencies": {
+    "chai": "^6.2.0",
     "mocha": "^11.7.4"
   }
 }
