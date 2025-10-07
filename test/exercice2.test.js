@@ -1,5 +1,5 @@
 const expect = require('expect');
-const { findOdd } = require('../code/exercice2.js');
+import { findOdd } from '../code/exercice2.js';
 
 describe("findOdd", () => {
     it("should return 4 for [1,2,2,3,3,3,4,3,3,3,2,2,1]", () => {

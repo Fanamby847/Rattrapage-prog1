@@ -1,5 +1,5 @@
 const expect = require('expect');
-const {capitalizeNames} = require('../code/exercice1.js');
+import {capitalizeNames} from '../code/exercice1.js';
 
 describe("capitalizeNames", () => {
     it("should capitalize ['jo', 'nelson', 'jurie']", () => {
